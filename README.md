@@ -26,7 +26,7 @@ Are you ready to dive into the world of geospatial data science? We're here to s
 
 Let's embark on this exciting adventure!
 
-Feel free to contact Anton at anton@clmtai.org or myself, ciaran@clmtai.org
+Feel free to contact Anton at anton@clmtai.org 
 
 ## Key Definitions
 
