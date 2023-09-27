@@ -321,6 +321,10 @@ By combining Dask and GeoPandas in your geospatial data analysis workflows, you 
 - [Scaling Pandas Using Dask](https://www.youtube.com/watch?v=CVL8sTXT714)
 - [Scaling Geospatial Data Analysis with Dask](https://www.youtube.com/watch?v=HB4OvZyrpl4)
 
+## Hands-on Exercises
+
+***Coming Soon***
+
 The next section of this guide will dive into some useful Geospatial Data Science Use-Cases in Python to help you see practical examples of how real-world problems can be solved with Geospatial Data Analysis in Python.
 
 **Use-Case 1:** Analyzing Soil Types in a Specific Agricultural Region
@@ -328,4 +332,5 @@ The next section of this guide will dive into some useful Geospatial Data Scienc
 *Objective:* Create a Python script to retrieve and analyze soil data in a specific agricultural region using open-source geospatial datasets.
 
 **Use-Case 2:** Predicting Crop Suitability using Soil Data and Machine Learning
+
 *Objective:* Extend the soil analysis project to predict crop suitability for different areas within the agricultural region based on soil characteristics, climate data, and historical crop yield data.
