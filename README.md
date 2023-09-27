@@ -24,8 +24,6 @@ In the following sections, we will:
 
 We're here to support your learning journey every step of the way. Feel free to reach out to our team members if you have questions or need assistance. 
 
-Let's embark on this exciting adventure!
-
 Feel free to contact Anton at anton@clmtai.org or Ciaran at ciaran@clmtai.org
 
 ## Key Definitions
