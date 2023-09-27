@@ -15,10 +15,10 @@ Our immediate goal for this onboarding guide is to equip you with the fundamenta
 In the following sections, we will:
 
 1. **Provide an Overview:** We'll start with an overview of geospatial data analysis, its significance in various industries, and real-world applications.
-2. **Introduce Key Concepts:** You'll dive into essential concepts such as geographic information systems (GIS), spatial data formats, coordinate systems, and more.
+2. **Introduce Key Concepts:** You'll dive into essential concepts such as geographic information systems (GIS), satellite imagery, map projections, and more.
 3. **Explore Tools and Technologies:** We'll introduce you to the tools and technologies commonly used in geospatial data analysis, including popular software, libraries, and platforms.
 4. **Hands-On Learning:** Practical experience is crucial. We'll guide you through hands-on exercises and projects that will reinforce your understanding and skills.
-5. **Collaboration and Resources:** You'll learn how to collaborate effectively with our team, access valuable resources, and stay up-to-date with the latest developments in geospatial data analysis.
+5. **Collaboration and Resources:** You'll learn how to collaborate effectively with our team and access valuable resources.
 
 ## Let's Get Started!
 
@@ -26,7 +26,7 @@ Are you ready to dive into the world of geospatial data science? We're here to s
 
 Let's embark on this exciting adventure!
 
-Feel free to contact Anton at anton@clmtai.org 
+Feel free to contact Anton at anton@clmtai.org or Ciaran at ciaran@clmtai.org
 
 ## Key Definitions
 
@@ -46,6 +46,15 @@ In the world of geospatial data science, several fundamental terms are essential
 
 Understanding these key concepts is fundamental to navigating the world of geospatial data science effectively. As you progress in your learning journey, you'll gain valuable insights into how geospatial data, data science techniques, and GIS technology work together to address real-world challenges and opportunities.
 
+#### Useful Links
+
+- [Introductory lecture on Spatial Data Analysis](https://www.youtube.com/watch?v=JwHxJsesG2Y&list=PLzREt6r1NenmFyTw8v2JZpEE4PZGNi5Ht)
+- [What is GIS?](https://www.youtube.com/watch?v=Mw2KH1WQ8oA)
+- [National Geographic Article](https://education.nationalgeographic.org/resource/geographic-information-system-gis/)
+- [Free Introductory Book](https://volaya.github.io/gis-book/en/index.html)
+- [UC Davis GIS Specialisation](https://www.coursera.org/specializations/gis)
+- [Video on Geo-Spatial Data Concepts](https://www.youtube.com/watch?v=4LVsYa7GVDE)
+
 ## An Introduction to Satellite Imagery
 
 ### Introduction
@@ -63,6 +72,47 @@ Satellite imagery consists of high-resolution images captured by satellites orbi
 - **Geospatial Data:** Satellite imagery includes geospatial information, enabling precise georeferencing and mapping. This allows us to correlate imagery with specific geographic locations on Earth.
 
 - **Resolution:** Satellite imagery comes in various resolutions, from low-resolution global views to high-resolution images that can capture fine details on the Earth's surface.
+
+## An Introduction to Satellite Bands
+
+Satellite imagery is a valuable source of geospatial data used for a wide range of applications, from climate monitoring to land use analysis. To make the most of satellite imagery, it's essential to understand the concept of satellite bands. Satellite bands refer to the specific regions of the electromagnetic spectrum that satellites capture and record. Each band provides unique information about the Earth's surface and atmosphere, making them essential for various geospatial analyses.
+
+### Understanding Satellite Bands
+
+Satellite sensors are equipped with detectors that measure electromagnetic radiation in different parts of the spectrum. Here's an overview of the key satellite bands and their characteristics:
+
+### 1. **Visible Bands:**
+
+   - **Blue Band:** Captures blue light (approximately 0.45-0.52 micrometers). Useful for detecting water bodies and distinguishing water from other land features.
+
+   - **Green Band:** Captures green light (approximately 0.53-0.59 micrometers). Helps identify healthy vegetation, as chlorophyll reflects green light.
+
+   - **Red Band:** Captures red light (approximately 0.63-0.69 micrometers). Useful for vegetation health assessment and land cover classification.
+
+### 2. **Infrared Bands:**
+
+   - **Near-Infrared (NIR) Band:** Captures near-infrared light (approximately 0.75-1.4 micrometers). Used for vegetation analysis, as healthy vegetation strongly reflects NIR light.
+
+   - **Shortwave Infrared (SWIR) Band:** Captures shortwave infrared light (approximately 1.4-3.0 micrometers). Helps detect moisture content in soils and rock types.
+
+### 3. **Thermal Infrared Bands:**
+
+   - **Thermal Infrared (TIR) Band:** Captures thermal radiation (approximately 8-15 micrometers). Measures temperature variations on the Earth's surface, used in applications like detecting wildfires and monitoring urban heat islands.
+
+### 4. **Microwave Bands:**
+
+   - **Microwave Bands:** Microwaves (wavelengths ranging from millimeters to meters) are used in radar imagery. Microwaves can penetrate clouds and provide information on surface roughness, soil moisture, and more.
+
+Understanding these satellite bands and their specific uses is crucial for interpreting satellite imagery. Depending on your geospatial analysis goals, you may need to work with data from multiple bands to extract meaningful insights.
+
+#### Useful Links
+
+- [Introductory Video to Satellite Imagery](https://www.youtube.com/watch?v=ERPgsFSUfX4)
+- [What is Remote Sensing](https://www.youtube.com/watch?v=F2mQ6fJSxRY)
+- [Remote Sensing and Classification](https://www.youtube.com/watch?v=Hgf3k981Cvw)
+- [Landsat8 Example - Band by Band](https://www.youtube.com/watch?v=A6WzAc1FTeA)
+- [Remote Sensing Image Acquisition, Analysis, and Applications - UNSW Specialism](https://www.coursera.org/learn/remote-sensing)
+- [University of Toronto Satellite Imagery Specialism](https://www.coursera.org/learn/spatial-analysis-satellite-imagery-in-a-gis)
 
 ## Commonly Used NASA and ESA Data Sets
 
@@ -95,6 +145,14 @@ For climate and agricultural analysis, several data sets stand out:
 - **[ESA Copernicus Climate Change Service](https://climate.copernicus.eu/):** ESA's climate data sets, such as those related to temperature and greenhouse gases, are vital for climate scientists and agricultural researchers studying long-term trends and climate impacts on agriculture.
 
 Exploring these data sets and their applications is a fascinating journey into the world of satellite imagery and its diverse uses across various domains.
+
+#### Useful Links
+
+- [Datasets Article](https://gisgeography.com/free-satellite-imagery-data-list/)
+- [Satellite Imagery and Deep Learning](https://www.youtube.com/watch?v=CQlLa_UWncg)
+- [Deep Learning with Satellite Imagery Workshop](https://www.youtube.com/watch?v=3Xn21RT-y7Y)
+- [Introduction to Remote Sensing with Python](https://www.youtube.com/watch?v=gi4UdFsayoM)
+- [An ML Approach to Satellite Imagery](https://www.youtube.com/watch?v=5PNnPagENxQ)
 
 ## Commonly Used Python GIS Libraries
 
@@ -145,6 +203,8 @@ In the following sections, we will dive deeper into these libraries and provide 
 ### Additional Geospatial Libraries
 
 In addition to the Python GIS libraries mentioned above, there is a wealth of geospatial data and resources available for exploration. One valuable resource is the ["Awesome-Geospatial" repository](https://github.com/sacridini/Awesome-Geospatial), which curates a comprehensive list of links to geospatial datasets, tools, tutorials, and more. This repository serves as a valuable reference for those seeking diverse geospatial datasets and additional resources to enhance their geospatial data analysis skills. Exploring the datasets and tools listed in this repository can open up exciting possibilities for geospatial projects and research.
+
+#### [Top Courses To Learn Geospatial Python ](https://www.youtube.com/watch?v=eXYg1WC93do&t=480s)
 
 ## An Introduction to Projections
 
@@ -204,37 +264,11 @@ Web Mercator, used in web mapping applications like Google Maps, preserves shape
 
 Selecting the right map projection for your project involves understanding the trade-offs between preserving properties and managing distortions. It's essential to consider your specific project requirements, study area, and goals. Many GIS software tools provide options to change map projections, allowing you to experiment and choose the one that best suits your needs.
 
-## An Introduction to Satellite Bands
+#### Useful Links
 
-Satellite imagery is a valuable source of geospatial data used for a wide range of applications, from climate monitoring to land use analysis. To make the most of satellite imagery, it's essential to understand the concept of satellite bands. Satellite bands refer to the specific regions of the electromagnetic spectrum that satellites capture and record. Each band provides unique information about the Earth's surface and atmosphere, making them essential for various geospatial analyses.
-
-### Understanding Satellite Bands
-
-Satellite sensors are equipped with detectors that measure electromagnetic radiation in different parts of the spectrum. Here's an overview of the key satellite bands and their characteristics:
-
-### 1. **Visible Bands:**
-
-   - **Blue Band:** Captures blue light (approximately 0.45-0.52 micrometers). Useful for detecting water bodies and distinguishing water from other land features.
-
-   - **Green Band:** Captures green light (approximately 0.53-0.59 micrometers). Helps identify healthy vegetation, as chlorophyll reflects green light.
-
-   - **Red Band:** Captures red light (approximately 0.63-0.69 micrometers). Useful for vegetation health assessment and land cover classification.
-
-### 2. **Infrared Bands:**
-
-   - **Near-Infrared (NIR) Band:** Captures near-infrared light (approximately 0.75-1.4 micrometers). Used for vegetation analysis, as healthy vegetation strongly reflects NIR light.
-
-   - **Shortwave Infrared (SWIR) Band:** Captures shortwave infrared light (approximately 1.4-3.0 micrometers). Helps detect moisture content in soils and rock types.
-
-### 3. **Thermal Infrared Bands:**
-
-   - **Thermal Infrared (TIR) Band:** Captures thermal radiation (approximately 8-15 micrometers). Measures temperature variations on the Earth's surface, used in applications like detecting wildfires and monitoring urban heat islands.
-
-### 4. **Microwave Bands:**
-
-   - **Microwave Bands:** Microwaves (wavelengths ranging from millimeters to meters) are used in radar imagery. Microwaves can penetrate clouds and provide information on surface roughness, soil moisture, and more.
-
-Understanding these satellite bands and their specific uses is crucial for interpreting satellite imagery. Depending on your geospatial analysis goals, you may need to work with data from multiple bands to extract meaningful insights.
+- [How Map Projections Work](https://www.youtube.com/watch?v=NAzy4S4EOwc)
+- [Map Projections in GIS](https://www.youtube.com/watch?v=jVn1uCuhO_4&t=1s)
+- [Beginners Guide](https://www.youtube.com/watch?v=wlfLW1j05Dg)
 
 ## Introduction to Leveraging Dask and GeoPandas for Large Data Processing
 
@@ -279,3 +313,19 @@ By combining Dask and GeoPandas in your geospatial data analysis workflows, you 
 - **Optimize Processing:** Achieve faster data processing by leveraging parallelism and lazy evaluation provided by Dask.
 
 - **Perform Complex Geospatial Analysis:** Use GeoPandas for geospatial data manipulation and analysis while benefiting from Dask's scalability.
+
+#### Useful Links
+
+- [Intro to Dask](https://www.youtube.com/watch?v=nnndxbr_Xq4)
+- [In-Depth Tutorial](https://www.youtube.com/watch?v=_u0OQm9qf_A)
+- [Scaling Pandas Using Dask](https://www.youtube.com/watch?v=CVL8sTXT714)
+- [Scaling Geospatial Data Analysis with Dask](https://www.youtube.com/watch?v=HB4OvZyrpl4)
+
+The next section of this guide will dive into some useful Geospatial Data Science Use-Cases in Python to help you see practical examples of how real-world problems can be solved with Geospatial Data Analysis in Python.
+
+**Use-Case 1:** Analyzing Soil Types in a Specific Agricultural Region
+
+*Objective:* Create a Python script to retrieve and analyze soil data in a specific agricultural region using open-source geospatial datasets.
+
+**Use-Case 2:** Predicting Crop Suitability using Soil Data and Machine Learning
+*Objective:* Extend the soil analysis project to predict crop suitability for different areas within the agricultural region based on soil characteristics, climate data, and historical crop yield data.
